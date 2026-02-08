@@ -1,14 +1,4 @@
 Links:
-
-Coding:
-1. Blind 75: neetcode.io/practice/blind75
-(The essential 75 questions that cover almost all patterns.)
-2. NeetCode 150: neetcode.io/practice/neetcode150
-(An expanded version of the Blind 75 for more thorough coverage.)
-3. Roadmap View: neetcode.io/roadmap
-(A visual flow that shows you which topics (e.g., Arrays → Trees → DP) to learn in order.)
-
-System Design:
 1. System Design Interview - Alex Xu
 [
 links:
