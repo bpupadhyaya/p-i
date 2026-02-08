@@ -10,3 +10,22 @@ https://bytes.usc.edu/~saty/courses/docs/data/SystemDesignInterview.pdf
 links:
 https://github.com/Henrywu573/Catalogue/blob/master/Grokking-the-system-design-interviewpdf-5-pdf-free%20(1).pdf
 ]
+
+3. Designing Data Intensive Applications - Martin Kleppmann
+[
+links:
+https://github.com/letthedataconfess/Data-Engineering-Books/blob/main/Book-2Designing-data-intensive-applications.pdf
+]
+
+4. System Design Primer (GitHub)
+[
+links:
+https://github.com/donnemartin/system-design-primer
+]
+
+5. Machine Learning System Design Interview - Ali Aminian and Alex Xu
+[
+links:
+https://www.amazon.com/Machine-Learning-System-Design-Interview/dp/1736049127
+(find free resource)
+]
