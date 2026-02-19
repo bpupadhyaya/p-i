@@ -15,7 +15,7 @@ s consists of parentheses only '()[]{}'.
 
 Tag: 52/150, R2/145
 Tag: 20/2927, R2/2936
-Group: g1
+Cat: g1
 """
 
 
