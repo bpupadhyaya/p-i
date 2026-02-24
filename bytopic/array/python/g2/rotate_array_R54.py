@@ -27,7 +27,7 @@ def rotate(nums: list[int], k: int) -> None:
         nums[i], nums[length-1-i+k] = nums[length-1-i+k], nums[i]
 
 
-def rotate_2_ai(nums: list[int], k: int) -> None:
+def rotate_2_ai_gemini(nums: list[int], k: int) -> None:
     """
     Do not return anything, modify nums in-place instead.
     """
@@ -48,11 +48,40 @@ def rotate_2_ai(nums: list[int], k: int) -> None:
     reverse(k, n - 1)
 
 
+def rotate_3_ai_grok(nums: list[int], k: int) -> None:
+    """
+    Do not return anything, modify nums in-place instead.
+    """
+
+    # O(n) time · O(1) space – using three reverses
+
+    n = len(nums)
+    k = k % n  # handle k >= n
+    if k == 0:
+        return
+
+    # Step 1: reverse whole array
+    nums.reverse()  # [7,6,5,4,3,2,1]
+
+    # Step 2: reverse first k elements
+    nums[:k] = nums[:k][::-1]  # [5,6,7,4,3,2,1]
+
+    # Step 3: reverse the rest
+    nums[k:] = nums[k:][::-1]  # [5,6,7,1,2,3,4]
+
+
+def rotate_4_ai_grok(nums: list[int], k: int) -> None:
+    # One-liner version (very clean, still O(n) time, O(1) extra space)
+    n = len(nums)
+    k %= n
+    nums[:] = nums[-k:] + nums[:-k]
+
+
 def main():
     nums = [1, 2, 3, 4, 5, 6, 7]
     k = 3
     print("Before: ", nums)
-    rotate_2_ai(nums, k)
+    rotate_4_ai_grok(nums, k)
     print("After: ", nums)
 
 
