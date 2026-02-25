@@ -89,7 +89,7 @@ if __name__ == "__main__":
     main()
 
 """
-rotate_2_ai(...):
+rotate_2_ai_gemini(...):
 
 Approach:
 ---------
@@ -119,5 +119,7 @@ If our array length is 7 and k is 10, rotating 10 times is the same as rotating 
  ------             ----------          ----
  Time Complexity    O(n)              We touch each element a constant number of times (two passes).
  Space Complexity   O(1)              No additional arrays or data structures are created.
-
+Edge Case Handling  High              Using k %= n ensures the code doesn't crash if k is larger than 
+                                        the array size (e.g., rotating an array of 3 elements 10 times is 
+                                        the same as rotating it once).        
 """
