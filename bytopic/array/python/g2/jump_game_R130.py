@@ -48,7 +48,9 @@ if __name__ == "__main__":
 
 
 """
+can_jump_ai_gemini(...):
 Approach: 
+--------
 This is a classic Greedy algorithm problem often referred to as Jump Game. While you could solve 
 this using Dynamic Programming, the Greedy approach is significantly more efficient in both time 
 and space.
