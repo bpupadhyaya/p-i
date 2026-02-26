@@ -75,7 +75,7 @@ Performance Analysis:
 Metric              Complexity      Why it's the best
 ------              ----------      ------------------
 Time Complexity     O(n)          We pass through the citations once and the buckets once. No nested loops or sorting.
-Space Complexity    O(n)          We use an extra array of size $n+1$, which is a fair trade-off for linear time.
+Space Complexity    O(n)          We use an extra array of size n+1, which is a fair trade-off for linear time.
 ---------------------------------------------------------------------------------------------------------------
 h_index(...):
 Approach
